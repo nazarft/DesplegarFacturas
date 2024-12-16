@@ -1,0 +1,13 @@
+{
+  "name": "prueba-build-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "despliegue:pruebas": "mvn clean install && ./deploy.sh pruebas.env",
+    "despliegue:preproduccion": "mvn clean install && ./deploy.sh preproduccion.env",
+    "despliegue:produccion": "mvn clean install && ./deploy.sh produccion.env"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
